@@ -17,7 +17,6 @@ systemctl status httpd
 TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"` && curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/
 TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"` && curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/
 curl -H "X-aws-ec2-metadata-token: AQAAALfWNFVET7QDtrKhP2E3aw4xcqJbSWwo5kLQ302gfos5h2AEIQ==" -v curl http://169.254.169.254/latest/meta-data/ami-id
-curl -H "X-aws-ec2-metadata-token: AQAAALfWNFVET7QDtrKhP2E3aw4xcqJbSWwo5kLQ302gfos5h2AEIQ==" -v curl http://169.254.169.254/latest/meta-data/placements
 curl -H "X-aws-ec2-metadata-token: AQAAALfWNFVET7QDtrKhP2E3aw4xcqJbSWwo5kLQ302gfos5h2AEIQ==" -v curl http://169.254.169.254/latest/meta-data/placement
 curl -H "X-aws-ec2-metadata-token: AQAAALfWNFVET7QDtrKhP2E3aw4xcqJbSWwo5kLQ302gfos5h2AEIQ==" -v curl http://169.254.169.254/latest/meta-data/events
 curl -H "X-aws-ec2-metadata-token: AQAAALfWNFVET7QDtrKhP2E3aw4xcqJbSWwo5kLQ302gfos5h2AEIQ==" -v curl http://169.254.169.254/latest/meta-data/network
