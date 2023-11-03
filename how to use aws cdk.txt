@@ -1,0 +1,43 @@
+AWS CLI installation on windows from cmd: msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+
+Then install AWS cdk for vs code
+npm install -g aws-cdk             # install latest version
+npm install -g aws-cdk@X.YY.Z      # install specific version for latest version @latest
+
+then for python : py -m pip install aws-cdk-lib
+to use in python : import aws_cdk as cdk
+
+for typescript: npm install aws-cdk-lib
+Import:	import * as cdk from 'aws-cdk-lib';
+
+windows cmd: 
+aws configure
+AWS Access Key ID [None]: your-iam-access-id
+AWS Secret Access Key [None]: your-iam-access-key
+Default region name [None]: aws-region
+Default output format [None]:
+
+
+for a sample cdk project:
+->create a folder:
+mkdir my-cdk-project
+->change dir:
+cd my-cdk-project
+->run init command:
+cdk init app --language typescript
+->to build the project:
+npm run build
+->run boot strap to create cdktoolkit stack on cloudformation. its one time command. if run without region, it willtry to replicate in all enabled regions
+cdk bootstrap 'aws://acoount_no/asws-region'
+->synth to create a cdk templete:
+cdk synth
+-->finally deploy:
+cdk deploy
+
+->to delete a deployed stack:
+cdk destroy
+
+
+***with cdk v2 bootstrap version check is enabled and it fails due to newStyleStackSynthesis is by default true
+so in cdk.json add below to the context:
+"@aws-cdk/core:newStyleStackSynthesis": false
