@@ -1,1 +1,24 @@
-aws iam user login url:  https://skd-aws-root.signin.aws.amazon.com/console
+All AWS Certifications -> https://aws.amazon.com/certification/
+
+AWS Certified Developer - Associate - https://aws.amazon.com/certification/certified-developer-associate/?ch=sec&sec=rmg&d=1
+
+AWS Certified Developer - Associate (DVA-C02) Exam Guide -> https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf
+
+AWS Ramp-Up Guide: Developer -> https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf
+
+Microservices -> https://aws.amazon.com/microservices/
+
+What is an Event-Driven Architecture? -> https://aws.amazon.com/event-driven-architecture/
+
+Error handling and automatic retries in AWS Lambda -> https://docs.aws.amazon.com/lambda/latest/dg/invocation-retries.html
+
+DynamoDB Streams and AWS Lambda triggers -> https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html
+
+Implementing AWS Lambda error handling patterns -> https://aws.amazon.com/blogs/compute/implementing-aws-lambda-error-handling-patterns/
+
+Lambda function handler in Python -> https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html
+
+Protecting data with encryption -> Server-side encryption & Client-side encryption -> https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingEncryption.html
+
+Stateless web tier -> https://docs.aws.amazon.com/whitepapers/latest/best-practices-wordpress/stateless-web-tier.html
+AWS Serverless Application Model (AWS SAM) -> https://aws.amazon.com/serverless/sam/
