@@ -22,3 +22,33 @@ Protecting data with encryption -> Server-side encryption & Client-side encrypti
 
 Stateless web tier -> https://docs.aws.amazon.com/whitepapers/latest/best-practices-wordpress/stateless-web-tier.html
 AWS Serverless Application Model (AWS SAM) -> https://aws.amazon.com/serverless/sam/
+
+https://aws.amazon.com/certification/policies/before-testing/
+
+Sign in to aws.training/Certification. 
+Select the Go to your Account button. 
+Select the Request Exam Accommodations button, followed by Request Accommodation.
+Using the Accommodation Type dropdown, select ESL +30 MINUTES.
+Select the Create button.
+
+https://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.Errors.html
+
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.Errors.html
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-pagination.html
+
+https://explore.skillbuilder.aws/learn/course/internal/view/elearning/17909/aws-partnercast-aws-partner-certification-readiness-developer-associate-nov-1-of-4-technical
+
+https://explore.skillbuilder.aws/learn/course/internal/view/elearning/17993/aws-partnercast-aws-partner-certification-readiness-developer-associate-nov-2-of-4-technical
+
+https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html 
+
+https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets_jdbc.html
+
+https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-output-format
+
+https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html 
+
+https://aws.amazon.com/blogs/networking-and-content-delivery/using-the-aws-cdk-and-aws-transit-gateway-inter-region-peering-to-build-a-global-network/
