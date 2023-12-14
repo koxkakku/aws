@@ -1,0 +1,30 @@
+poetry installation:
+powershell: 
+	(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+
+check version: 
+	poetry -V
+
+list poetry config: 
+	poetry config --list
+
+enable virtual env in project: 
+	poetry config virtualenvs.in-project true
+
+
+
+create new proj: 
+	poetry new proj-name
+initialize poetry in an existing dir: 
+	poetry init
+
+list all poetry dependencies: 
+		poetry show
+			or
+		poetry show --tree
+		
+add a package: 
+	poetry add package_name
+	
+remove a package:
+	poetry remove package_name
