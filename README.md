@@ -1,2 +1,0 @@
-# aws
-basics of aws
