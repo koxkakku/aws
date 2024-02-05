@@ -1,0 +1,4 @@
+npm i -g @mhlabs/cfn-diagram  
+cfn-dia                                                    
+cfn-dia draw.io -t "C:\Users\004O8G744\Downloads\runtimeStackTemplete.json"  
+cfn-dia html -t "C:\Users\004O8G744\Downloads\runtimeStackTemplete.json"     
